@@ -1,5 +1,5 @@
 @import 'components/navbar';
-
+@import 'components/banner';
 /* pseuloelementos*/
 .imagen :hover {
     background-color: #000;
@@ -11,9 +11,7 @@
 .faq-title {
     color: #E26309;
 }
-.banner {
-    width: 100%;
-}
+
 
 .calculadoraContainer {
     display: flex;
