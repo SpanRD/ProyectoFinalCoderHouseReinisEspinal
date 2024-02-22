@@ -1,1 +1,8 @@
 
+@mixin flexVideoContainer($position,$top,$left,$width,$height){
+    position: $position;
+    top: $top;
+    left: $left;
+    width: $width;
+    height: $height;
+}

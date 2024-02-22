@@ -1,11 +1,17 @@
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-    color: #914208;
+//EXTEND
+
+.navbar-nav {
+  .nav-link.active {
+    @extend .colorActive;
+  }
+  .nav-link.show {
+    @extend .colorActive;
+  }
 }
 
-
-
+.colorActive {
+  color: #914208;
+}
 #logoImg {
-    min-width: 60px;
-
+  min-width: 60px;
 }

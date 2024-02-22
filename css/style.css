@@ -1,5 +1,4 @@
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
+.colorActive, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: #914208;
 }
 
